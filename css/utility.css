@@ -1,0 +1,52 @@
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+
+:root {
+  /* colors */
+  --clr-dark: 230 35% 7%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%;
+
+  /* font-sizes */
+  --fs-900: 9.375rem;
+  --fs-800: 6.25rem;
+  --fs-700: 3.5rem;
+  --fs-600: 2rem;
+  --fs-500: 1.75rem;
+  --fs-400: 1.125rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+
+  /* font-color */
+  /* java */
+  --java-50: #effcfb;
+  --java-100: #d6f7f5;
+  --java-200: #b1f0f0;
+  --java-300: #7be3e5;
+  --java-400: #3eced2;
+  --java-500: #25bdc3;
+  --java-600: #208f9a;
+  --java-700: #20747e;
+  --java-800: #225f68;
+  --java-900: #214f58;
+  --java-950: #10343c;
+
+  /* orchid */
+  --orchid-50: #fbf4fa;
+  --orchid-100: #f9eaf8;
+  --orchid-200: #f4d6f0;
+  --orchid-300: #ecb5e4;
+  --orchid-400: #dd7ccc;
+  --orchid-500: #d262bb;
+  --orchid-600: #bf439f;
+  --orchid-700: #a43283;
+  --orchid-800: #882c6d;
+  --orchid-900: #72295c;
+  --orchid-950: #451235;
+
+  /* font-families */
+  --ff-serif: "Roboto Slab", serif;
+  --ff-sans-cond: "Barlow Condensed", sans-serif;
+  --ff-sans-normal: "Barlow", sans-serif;
+}
