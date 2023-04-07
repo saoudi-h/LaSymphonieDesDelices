@@ -71,7 +71,7 @@ footer{
   .navbar .logo{
     width:4vh;
     height:4vh;
-    background:url("/img/logo-png.png") center center;
+    background:url("./img/logo-png.png") center center;
     background-size:cover;
     display:inline-block;
     margin-right:1vh;
@@ -88,7 +88,7 @@ footer{
   .landing {
     width: 100%;
     height: 30rem;
-    background: url("/img/landing-2.jpg") center center;
+    background: url("./img/landing-2.jpg") center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -246,15 +246,15 @@ footer{
   }
 
   #speciality .macaron .card-image div {
-    background: url("/img/speciality-macaron.jpg") center center #fff;
+    background: url("./img/speciality-macaron.jpg") center center #fff;
     background-size: cover;
   }
   #speciality .chocolat .card-image div {
-    background: url("/img/speciality-chocolat.jpg") center center #fff;
+    background: url("./img/speciality-chocolat.jpg") center center #fff;
     background-size: cover;
   }
   #speciality .ice .card-image div {
-    background: url("/img/speciality-ice.jpg") center center #fff;
+    background: url("./img/speciality-ice.jpg") center center #fff;
     background-size: cover;
   }
 
