@@ -27,7 +27,7 @@ Pour installer le projet, il suffit de cloner le repo :
 
 bashCopy code
 
-`git clone saoudi-h/LaSymphonieDesDelices`
+`git clone https://github.com/saoudi-h/LaSymphonieDesDelices.git`
 
 ## Utilisation
 
