@@ -26,18 +26,16 @@ nav,
 footer {
   width: 100%;
   background: #00000055;
-  font-size: 1.2rem;
+  font-size: var(--fs-400);
 }
 
 nav {
   position: sticky;
 }
-footer {
-  font-size: 1.2rem;
-}
 
-nav .navbar.mentions, nav h2{
-  display:none;
+nav .navbar.mentions,
+nav h2 {
+  display: none;
 }
 
 .navbar {
@@ -55,8 +53,8 @@ nav .navbar.mentions, nav h2{
   height: 100%;
   position: relative;
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   padding: 0.5rem 0;
   margin: 0;
 }
@@ -90,18 +88,17 @@ nav .navbar.mentions, nav h2{
   color: var(--orchid-50);
 }
 
-footer .navbar .logo{
-  width:5vw;
-  height:5vw;
-  background:url("../img/logo-png.png") center center;
-  background-size:cover;
-  display:inline-block;
-  margin:0 2vw;
-
+footer .navbar .logo {
+  width: 2rem;
+  height: 2rem;
+  background: url("../img/logo-png.png") center center;
+  background-size: cover;
+  display: inline-block;
+  margin: 0 1rem;
 }
-footer .navbar .item-1{
+footer .navbar .item-1 {
   font-weight: 100;
-  font-size:1rem;
+  font-size: 1rem;
 }
 
 /*******************************************************************************************************/
@@ -110,7 +107,7 @@ footer .navbar .item-1{
 
 .landing {
   width: 100%;
-  height: 35vh;
+  height: 16rem;
   background: url("../img/landing-mobile.jpg") center center;
   background-size: cover;
   display: flex;
@@ -132,13 +129,13 @@ footer .navbar .item-1{
   width: 100%;
   font-family: var(--ff-serif);
   font-weight: 900;
-  font-size: 2rem;
+  font-size: var(--fs-600);
   display: flex;
   align-items: center;
   justify-content: center;
   top: 0;
   left: 0;
-  padding:0.5rem 0;
+  padding: 0.5rem 0;
   background: #f4d6f0cc;
   width: 100%;
   color: var(--orchid-400);
@@ -237,19 +234,17 @@ main {
   gap: 1rem;
   width: 100%;
   align-items: flex-start;
-  position: relative;
 }
 
-#speciality .cards{
+#speciality .cards {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
   gap: 1rem;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   width: 100%;
-  position: relative;
 }
 
 #speciality .title {
@@ -271,8 +266,7 @@ main {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  padding: 0.5rem 1rem;
-  width: 100%;
+  padding: 1rem 1rem;
   border-right: 0.5rem solid var(--java-200);
   background-image: linear-gradient(
     to left,
@@ -297,8 +291,8 @@ main {
 
 #speciality .card-image div {
   border-radius: 50%;
-  width: 25vw;
-  height: 25vw;
+  width: 30vw;
+  height: 30vw;
   -webkit-box-shadow: 0px 0px 21px 5px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 21px 4px rgba(0, 0, 0, 0.4);
   border: 1vw solid var(--java-200);
@@ -321,7 +315,6 @@ main {
 #speciality .card-presentation {
   display: flex;
   flex-direction: column;
-  width: 100%;
   align-items: center;
 }
 
@@ -339,7 +332,6 @@ main {
   color: var(--java-800);
   transition: all 0.3s ease-in-out;
   overflow: hidden;
-
 }
 
 /* animation card *****************************************************************/
@@ -398,7 +390,6 @@ main {
   position: relative;
 }
 
-
 #people .jobs {
   display: flex;
   flex-direction: column;
@@ -406,11 +397,7 @@ main {
   gap: 1rem;
   width: 100%;
   align-items: center;
-  position: relative;
 }
-
-
-
 
 #people .title {
   width: 100%;
@@ -418,7 +405,7 @@ main {
   color: var(--java-950);
   font-family: var(--ff-serif);
   font-weight: 900;
-  font-size: 2rem;
+  font-size: var(--fs-500);
   display: flex;
   justify-content: space-around;
   gap: 1rem;
@@ -430,8 +417,8 @@ main {
 #people .person {
   display: flex;
   flex-direction: row;
-  gap: 2vh;
-  padding: 1vh 2vh;
+  gap: 1rem;
+  padding: 1rem 1rem;
   width: 100%;
   border-right: 2vw solid var(--java-950);
   background-image: linear-gradient(
@@ -445,7 +432,7 @@ main {
   background-position: left 10% top;
   align-items: center;
   transition: all 0.3s;
-  position: relative;
+
 }
 
 #people .person-image {
@@ -519,9 +506,9 @@ main {
   position: absolute;
   bottom: 0;
   top: 0;
-  right: -2vw;
+  right: -1rem;
   display: block;
-  width: 2vw;
+  width: 1rem;
   height: 100%;
   background: var(--java-200);
   transform-origin: center bottom;
@@ -572,7 +559,7 @@ main {
   color: var(--java-800);
   font-family: var(--ff-serif);
   font-weight: 900;
-  font-size: 2rem;
+  font-size: var(--fs-500);
   display: flex;
   justify-content: space-around;
   gap: 1rem;
@@ -589,6 +576,7 @@ main {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 90%;
   background-image: linear-gradient(
     to left,
@@ -598,6 +586,13 @@ main {
 
   border-radius: 20px 0 0 20px;
   border-right: 2vw solid var(--java-400);
+}
+#contact form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #contact .form::after {
@@ -622,7 +617,6 @@ main {
 
 label {
   display: block;
-  height: 4vh;
   font-family: var(--ff-sans-cond);
   text-transform: uppercase;
   font-weight: 200;
@@ -634,7 +628,7 @@ input[type="email"],
 input[type="tel"],
 textarea {
   display: block;
-  width: 100%;
+  width: 60%;
   padding: 0.5rem;
   margin-bottom: 1rem;
   border-radius: 2rem;
@@ -643,11 +637,11 @@ textarea {
   box-shadow: 0px 0px 5px #ccc;
 }
 textarea {
-  height: 20vh;
+  height: 6rem;
 }
 input[type="submit"] {
   display: block;
-  width: 100%;
+  width: 60%;
   padding: 5px;
   border-radius: 20px;
   border: none;
@@ -697,9 +691,8 @@ input[type="submit"]:hover {
   transition: all 0.3s ease-in-out;
 }
 #social-network .logo svg:hover {
-  transform: scale(150%,150%);
+  transform: scale(150%, 150%);
   border-radius: 50%;
-  
 }
 
 #social-network .instagram .logo svg:hover {
@@ -713,11 +706,9 @@ input[type="submit"]:hover {
   color: #4267b2;
 }
 
-
 /*******************************************************************************************************/
 /*****************************                 infos              ***************************************/
 /*******************************************************************************************************/
-
 
 #contact-info {
   margin-right: auto;
@@ -735,9 +726,9 @@ input[type="submit"]:hover {
 }
 
 #contact-info ul {
-  display:flex;
-  flex-direction:column;
-  gap:1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   list-style: none;
   margin: 0;
   padding: 1rem;
@@ -746,7 +737,7 @@ input[type="submit"]:hover {
 #contact-info li {
   display: block;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 #contact-info::after {
@@ -769,33 +760,30 @@ input[type="submit"]:hover {
   transform: translate3d(0, 0, 0) scaleY(1);
 }
 
-
-
 #contact-info a {
-  display:flex;
-  flex-direction:row;
-  gap:1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: var(--fs-300);
   font-family: var(--ff-sans-cond);
   font-weight: 400;
   text-transform: uppercase;
-  color:var(--java-800);
+  color: var(--java-800);
 }
 #contact-info a:hover {
-  color:var(--java-950);
+  color: var(--java-950);
 }
 
 #contact-info svg {
   width: 1.5rem;
   height: 1.5rem;
   object-fit: cover;
-  
+
   transition: all 0.3s ease-in-out;
 }
 #contact-info svg:hover {
-  color:var(--java-800);
-  transform: scale(120%,120%);
+  color: var(--java-800);
+  transform: scale(120%, 120%);
   border-radius: 50%;
 }
-
